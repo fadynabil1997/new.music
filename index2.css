@@ -1,0 +1,175 @@
+body{
+     background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+
+main{
+    
+    width: 25%;
+    height: 17%;
+    border-radius: 20px;
+    font-family: 'Lemonada', cursive;    
+
+    
+}
+h2{
+    height: 10%;
+   width: 50%;
+    background-color: rgb(59, 91, 97);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lemonada', cursive;
+    border-radius: 30px;
+    transition: 2s width , 3s heigh;
+    
+}
+h2:hover{
+    background-color: cornsilk;
+    width:70% ;
+    height: 15;
+    line-height: 15%;
+
+
+}
+.fady{
+
+font-size: 25px; 
+float: left;
+transform: translate(80% , 120%);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img{
+width: 100px;
+height: 100px;
+border-radius: 20%;
+text-align: center;
+margin: 0px;
+}
+div{
+    display: flex;
+    text-align: center;
+    
+}
+.photo{
+    width: 80%;
+    height: 50%;
+}
+.photo2{
+    width: 65%;
+    height: 50%;
+    
+}
+}
+:link{
+    display: block ;
+    text-decoration: none;
+}
+span{
+    background-color: black;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    color: ivory;
+    border: 2px double blanchedalmond;
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+transform: translateX(-100px);
+font-family: 'Lemonada', cursive;    
+border-radius: 20px;
+
+}
+.link{
+    text-align: center;
+    display: inline-block;
+text-decoration: none;
+    text-align: center;
+}
+.folow{
+   background-color: lightblue;
+    text-align: center;
+    width: 45%;
+    font-size: 20px;
+    margin: auto;
+    justify-content: space-between;
+    font-family: 'Lemonada', cursive; 
+    border-radius: 50px;   
+
+}
+.fa{
+    width: 18%; 
+    border-radius: 20px;
+    float: left;
+    background-color: black;
+    margin: 25px;
+    padding: 10px;
+    transform: translateY(-150%);
+  font-size: 20px;
+  color: bisque;
+  text-align: center;
+  border: 2px double white;
+  font-family: 'Lemonada', cursive;    
+
+}
+
+}
+article{
+    display: flex;
+}
+
+.fa:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+main:hover{
+    background-color: cornsilk;
+}
+
+span:hover{
+    animation-name: fadyfoda;
+    animation-duration: 2s;
+}
+
+
+.facebook{
+width: 70px;
+height: 70px;
+transition: 3s;
+}
+.facebook:hover{
+width: 100px;
+height: 100px;
+line-height: 100px;
+}
+.youtube{
+    width: 70px;
+    height: 70px;
+    transition: 3s;
+
+}
+.youtube:hover{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+.twitter{
+    width: 70px;
+    height: 70px;
+    transition: 3s;
+
+}
+.twitter:hover{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+@keyframes fadyfoda{
+
+    form{
+ background-color: chocolate;
+    }
+    to{
+ background-color: crimson;
+    }
+}
